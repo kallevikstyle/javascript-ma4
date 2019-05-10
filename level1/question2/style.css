@@ -1,0 +1,49 @@
+h2 {
+	font-family: arial;
+	font-size: 38px;
+	margin-top: 90px;
+}
+
+h3 {
+	font-family: arial;
+	font-size: 28px;
+}
+
+.completed {
+	color: green;
+}
+
+.not-completed {
+	color: red;
+}
+#todo-section {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#todo-section section {
+	max-width: 95%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px dotted black;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#todo-section section div {
+	height: 250px;
+	background-color: #EBEBEB;
+	border-radius: 5px;
+	display: inline-block;
+	width: 350px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 20px 22px 38px -29px rgba(0,0,0,1);
+}
+
+#todo-section section div:first-child {
+	background-color: #31A4F7;
+}
+

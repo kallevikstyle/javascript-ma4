@@ -1,3 +1,6 @@
+h1 {
+	text-align: center;
+}
 h2 {
 	font-family: arial;
 	font-size: 38px;
@@ -16,34 +19,34 @@ h3 {
 .not-completed {
 	color: red;
 }
-#todo-section {
+#todo-container {
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
-#todo-section section {
-	max-width: 95%;
+#todo-container section {
+	max-width: 90%;
 	margin: 0 auto;
 	padding: 10px;
-	border: 1px dotted black;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
 }
 
-#todo-section section div {
+#todo-container section div {
 	height: 250px;
 	background-color: #EBEBEB;
 	border-radius: 5px;
 	display: inline-block;
-	width: 350px;
+	width: 320px;
 	margin-left: 10px;
 	margin-bottom: 20px;
+	padding: 0 10px;
 	box-shadow: 20px 22px 38px -29px rgba(0,0,0,1);
 }
 
-#todo-section section div:first-child {
+#todo-container section div:first-child {
 	background-color: #31A4F7;
 }
 

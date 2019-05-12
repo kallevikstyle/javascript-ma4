@@ -1,5 +1,9 @@
-const requestURL = 'https://jsonplaceholder.typicode.com/todos';
-const newRequest = new XMLHttpRequest();
+fetch('https://jsonplaceholder.typicode.com/todos')
+	.then(todoData => todoData.json())
+	.then((todoData) => {
+		addNewCards(todoData);
+	})
+	.catch(err => console.log(err))
 
 function addNewCards(data) {
 	let userId = 0;
@@ -49,15 +53,4 @@ function addNewCards(data) {
 			userId++;
 		}
 	}
-}
-
-// Send request for API
-newRequest.open('GET', requestURL);
-newRequest.responseType = 'json';
-newRequest.send();
-
-// Receive request
-newRequest.onload = function() {
-	const todoData = newRequest.response;
-	addNewCards(todoData);
 }

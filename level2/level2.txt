@@ -1,0 +1,24 @@
+Level 2 Process
+
+1. What is the DOM?
+	The Document Object Model is a representation of the document (or the web page itself) as an object, divided up in a tree structure. The branches, or elements, on the DOM are called nodes, and they can be manipulated through third-party programming languages, such as JavaScript. The DOM makes it easy for programmers to access any part of an HTML document.
+
+2. List three methods to manipulate the DOM.
+	createElement()
+	appendChild()
+	querySelector()
+
+3. What is an asynchronous call?
+	When a program makes an asynchronous call it does not have to wait for the response from the API to continue executing the code. The program will keep running, and once the response from the API call is ready, the callback function will be called. This can make for reduced 'lagging' on the webpage, as other elements on the page will be able to load even while a server request is being processed.
+
+4. Briefly explain what the sources tab in Chromes Developers Tools does.
+	In the sources tab you can see all the files used by the webpage, such as html, css and script files. You can edit these files and see the effect directly on the page, which is great for debugging and testing out new ideas.
+
+5. What is a JavaScript promise?
+
+
+6. What is an API?
+
+7. What is a JavaScript Event?
+
+8. What is event bubbling?

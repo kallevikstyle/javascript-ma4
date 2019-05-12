@@ -15,10 +15,13 @@ Level 2 Process
 	In the sources tab you can see all the files used by the webpage, such as html, css and script files. You can edit these files and see the effect directly on the page, which is great for debugging and testing out new ideas.
 
 5. What is a JavaScript promise?
-
+	A promise is an object that can handle asynchronous calls for us. It is constructed with a function that takes two arguments: resolved and rejected. The original state of the promise is 'pending', which lasts until the call within the promise can return something (or not) to us. When the promise is settled (resolved or rejected), it will return to us an object or a message. This returned result is either defined by the 'resolved' or the 'rejected' state the promise can have, and lets us handle either outcome in our code. With the method '.then()' we can chain up several actions that will take place whether the promise returns as 'resolved' or 'rejected'.
 
 6. What is an API?
+	An Application Programming Interface is a constructed document, a set of information or piece of software that can be accessed by developers in their scripts, in order to implement advanced functionality in their programs without writing all of the code theirselves. It is a tool that lets us integrate almost anything into our programs.
 
 7. What is a JavaScript Event?
+	An event is something that occurs when the user interacts with the browser, like a click, a mouseover or pressing a key. It can also be automatically created events like when the page has finished loading. In JavaScript we can create event handlers that can listen for these events and act upon them. 
 
 8. What is event bubbling?
+	If an event handler is added to a nested element, AND a listener for the same event is added to the parent element, event bubbling can occur. It means that the event is first handled by the nested element, before it 'bubbles' up to the outer element and is handled there too. This can happen many times, for as many elements wrapped inside each other. It can be avoided with the stopPropagation() method.
